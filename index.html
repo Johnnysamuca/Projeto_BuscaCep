@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Busque pelo cep as informações associadas."
+    />
+    <title>Busca Cep</title>
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body>
+    <div class="caixa-erro">
+      <p class="caixa-erro_message-error">Cep invalido !</p>
+    </div>
+
+    <main class="main">
+      <div class="caixa-BuscaCep">
+        <h1 class="caixa-BuscaCep_titulo">Consultar cep</h1>
+
+        <div class="caixa-BuscaCep_caixa-busca">
+          <div class="caixa-BuscaCep_container-busca">
+            <input
+              class="caixa-BuscaCep_campoBusca"
+              type="text"
+              inputmode="numeric"
+              maxlength="8"
+            />
+            <button class="caixa-BuscaCep_btn-busca">Buscar</button>
+          </div>
+
+          <p class="caixa-BuscaCep_txt">
+            *O cep precisa ter 8 caracteres, todos númericos e sem espaço entre
+            eles.
+          </p>
+        </div>
+
+        <div class="caixa-InformacaoCep">
+          <p class="caixa-informacaoCep_info caixa-informacaoCep_info--bairro">
+            Rua irmã Carmelita de Jesus
+          </p>
+
+          <p class="caixa-informacaoCep_info caixa-informacaoCep_info--cidade">
+            Barra mansa
+          </p>
+
+          <p class="caixa-informacaoCep_info caixa-informacaoCep_info--estado">
+            Rio de janeiro
+          </p>
+
+          <p class="caixa-informacaoCep_info caixa-informacaoCep_info--regiao">
+            Sudeste
+          </p>
+
+          <p class="caixa-informacaoCep_info caixa-informacaoCep_info--ddd">
+            21
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>

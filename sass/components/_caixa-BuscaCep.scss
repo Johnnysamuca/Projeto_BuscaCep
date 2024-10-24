@@ -1,0 +1,53 @@
+.caixa-BuscaCep {
+  @include flex(column, stretch, start, 1.92rem);
+  background-color: lighten(green, 3%);
+  max-width: 50rem;
+  margin-top: 15rem;
+  border-radius: 1rem;
+  padding: 1.92rem 1.6rem;
+
+  &_titulo {
+    text-align: center;
+    font-size: 3.9rem;
+    color: #fff;
+  }
+
+  &_caixa-busca {
+    @include flex($flow: column, $gap: 0.65rem);
+  }
+
+  &_container-busca {
+    @include flex();
+  }
+
+  &_caixaCampoBusca {
+    @include flex($flow: column, $gap: 1.02rem);
+  }
+
+  &_campoBusca {
+    @extend %input;
+    width: 70%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+
+  &_btn-busca {
+    @extend %input;
+    width: 30%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-left: 2px solid black;
+    cursor: pointer;
+    background-color: darken(green, 15%);
+    color: $white;
+    transition: all 0.4s ease-in;
+
+    &:hover {
+      background-color: lighten(green, 20%);
+    }
+  }
+
+  &_txt {
+    font-weight: 700;
+  }
+}

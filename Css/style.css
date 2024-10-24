@@ -1,0 +1,140 @@
+.caixa-BuscaCep_btn-busca, .caixa-BuscaCep_campoBusca {
+  padding: 0.65rem;
+  font-size: 1.92rem;
+  outline: none;
+  border: 1px solid black;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media (max-width: 47.94em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #000;
+  background-image: url("../../assets/background-image.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100dvh;
+}
+
+.secao {
+  padding: 4.88rem 3.12rem;
+}
+
+.container {
+  padding: 1.92rem 2.3rem;
+}
+
+.caixa-erro {
+  font-size: 3.12rem;
+  font-weight: 600;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+  padding: 2.3rem;
+  color: #fff;
+  display: none;
+}
+.caixa-erro.aberto {
+  display: block;
+}
+
+.caixa-BuscaCep {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  justify-content: start;
+  gap: 1.92rem;
+  background-color: rgb(0, 143.3, 0);
+  max-width: 50rem;
+  margin-top: 15rem;
+  border-radius: 1rem;
+  padding: 1.92rem 1.6rem;
+}
+.caixa-BuscaCep_titulo {
+  text-align: center;
+  font-size: 3.9rem;
+  color: #fff;
+}
+.caixa-BuscaCep_caixa-busca {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  justify-content: start;
+  gap: 0.65rem;
+}
+.caixa-BuscaCep_container-busca {
+  display: flex;
+  flex-flow: row;
+  align-items: stretch;
+  justify-content: start;
+  gap: 0;
+}
+.caixa-BuscaCep_caixaCampoBusca {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  justify-content: start;
+  gap: 1.02rem;
+}
+.caixa-BuscaCep_campoBusca {
+  width: 70%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.caixa-BuscaCep_btn-busca {
+  width: 30%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-left: 2px solid black;
+  cursor: pointer;
+  background-color: rgb(0, 51.5, 0);
+  color: #fff;
+  transition: all 0.4s ease-in;
+}
+.caixa-BuscaCep_btn-busca:hover {
+  background-color: #00e600;
+}
+.caixa-BuscaCep_txt {
+  font-weight: 700;
+}
+
+.caixa-InformacaoCep {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  justify-content: start;
+  gap: 1.28rem;
+  font-size: 1.92rem;
+  color: #fff;
+  display: none;
+}
+.caixa-InformacaoCep.aberto {
+  display: block;
+}
+
+.main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

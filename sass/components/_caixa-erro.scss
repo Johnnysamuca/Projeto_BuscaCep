@@ -1,0 +1,14 @@
+.caixa-erro {
+  font-size: 3.12rem;
+  font-weight: 600;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+  padding: 2.3rem;
+  color: #fff;
+  display: none;
+
+  &.aberto {
+    display: block;
+  }
+}

@@ -1,0 +1,10 @@
+.caixa-InformacaoCep {
+  @include flex($flow: column, $gap: 1.28rem);
+  font-size: 1.92rem;
+  color: #fff;
+  display: none;
+
+  &.aberto {
+    display: block;
+  }
+}
